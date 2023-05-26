@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+ }
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgba(4, 31, 31, 0.399);
+}
+ .container1{
+    width: 30%;
+    height: 100vh;
+  }
+  .bg-img
+  {
+    width: 100%;
+    height: 100vh;
+  }
+ .big-pic{
+  width: 100%;
+ }
+
+ .cardfront{
+   width: 350px;
+   position: absolute;
+   top: 198px;
+   left: 200px;
+   box-shadow: #180523 0px 10px 25px 0px;
+ }
+ .mains
+ {
+  width: 100%;
+  display: flex;
+ }
+
+ .cardback{
+   width: 350px;
+   position: absolute;
+   top: 430px;
+   left: 280px;
+   box-shadow: #180523 0px 10px 25px 0px;
+ }
+
+ .container2{
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .form-container
+ {
+  width: 50%;
+  margin-left: 200px;
+ }
+.text-main{
+  font-size: 12px;
+  font-weight: 600;
+}
+.fox
+{
+  width: 85%;
+  outline: none;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 2px solid #b4b4b4;
+  margin: 5px 0 25px 0;
+}
+
+.fox:focus
+{
+  border: 2px solid purple;
+}
+
+.date-con
+{
+  width: 100%;
+  display: flex;
+}
+.cons
+{
+  width: 45%;
+}
+
+.conss{
+  width: 50%;
+}
+.date
+{
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid white;
+  border: 2px solid #b4b4b4;
+  outline: none;
+  width: 30%;
+  margin: 5px 15px 0 0;
+}
+.cvc
+{
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 2px solid #b4b4b4;
+  margin: 5px 0 0 0;
+}
+
+.foxes{
+  width: 85%;
+}
+
+.unfox{
+  width: 100%;
+  border-radius: 5px;
+  height: 50px;
+  margin-top: 35px;
+  background-color: #220930;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+}
+
+.unfox:hover{
+  background-color: #161515;
+  transition: 1s ease;
+}
+
+        /* CSS Thank you */
+
+.form-container1{
+  width: 50%;
+  text-align: center;
+}
+
+.hero{
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: -130px;
+}
+
+.dish{
+  margin-bottom: 150px;
+  position: relative;
+  width: 100px;
+}
+
+.sub{
+  font-size: 12px;
+  font-weight: 500;
+  color: #3e3b3b;
+  margin-top: 8px;
+}
+
+.eat{
+  background-color: #220930;
+  height: 50px;
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.eat:hover{
+  background: #161515;
+  transition: 1s ease;
+}
